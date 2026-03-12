@@ -12,7 +12,13 @@ perform install from https://pypi.org/
 
 Install Docker: https://www.docker.com/
 
-Docker is needed for easy deployment of the test app
+Docker is needed for easy deployment of the test app. If you are
+behind corporate firewall, then installing requirements with pip and
+running:
+```bash
+fastapi run test_app/main.py --port 80
+```
+to start the test app might be the easiest option.
 
 # Install
 
