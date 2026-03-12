@@ -1,0 +1,16 @@
+[project]
+name = "robotframework-schemathesis-workshop"
+version = "0.1.0"
+description = "robotframework-schemathesis library workshop materials"
+readme = "README.md"
+requires-python = ">=3.12.11"
+dependencies = [
+    "fastapi[standard]>=0.135.1",
+    "invoke>=2.2.1",
+    "mypy>=1.19.1",
+    "requests>=2.32.5",
+    "robotframework-robocop>=8.2.2",
+    "robotframework-schemathesislibrary>=2.2.0",
+    "ruff>=0.15.5",
+    "types-requests>=2.32.4.20260107",
+]
